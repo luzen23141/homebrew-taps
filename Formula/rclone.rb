@@ -11,7 +11,6 @@ class Rclone < Formula
 
       def install
         bin.install "rclone"
-        zsh_completion.install "_rclone"
       end
     end
     on_arm do
@@ -20,7 +19,6 @@ class Rclone < Formula
 
       def install
         bin.install "rclone"
-        zsh_completion.install "_rclone"
       end
     end
   end
